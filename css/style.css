@@ -1,0 +1,110 @@
+/* GLOBAL */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  font-size: 1.8rem;
+  font-family: "Poppins", sans-serif;
+  background: #141b30;
+  color: #b5b5b5;
+}
+
+/* HEAD */
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+header h1 {
+  text-transform: uppercase;
+}
+
+/* FORM */
+
+form {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0 0 0;
+}
+
+label {
+  position: absolute;
+  left: -10000px;
+}
+
+input[type="text"] {
+  width: 550px;
+  height: 65px;
+  padding-left: 50px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 2rem;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+input[type="submit"] {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: none;
+  outline: none;
+  width: 170px;
+  font-size: 1.9rem;
+  background-color: #fff;
+  text-align: center;
+  transition: 0.5s;
+}
+
+input[type="submit"]:hover {
+  background: #b5b5b5;
+  color: #fff;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* card */
+
+#adress {
+  display: flex;
+  justify-content: space-around;
+  margin: 150px 0 0 0;
+  background: #fff;
+  width: 900px;
+  height: 200px;
+  border-radius: 15px;
+  color: #000;
+}
+
+h2 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+.wrapper span {
+  text-align: right;
+}
+
+#adress h3 {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}

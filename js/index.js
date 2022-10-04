@@ -1,4 +1,5 @@
 const container = document.getElementById("adress");
+const map = document.querySelector("#map");
 
 document.querySelector("form").addEventListener("submit", (event) => {
   event.preventDefault();
@@ -55,5 +56,7 @@ document.querySelector("form").addEventListener("submit", (event) => {
       </div>
       </div>`;
       }
+      const iframe = document.querySelector("iframe");
+      iframe.src = `https://maps.google.it/maps?q=${data.latitude},${data.longitude}&z=10&output=embed`;
     });
 });

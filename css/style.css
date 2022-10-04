@@ -80,6 +80,7 @@ main {
 
 #adress {
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
   margin: 150px 0 0 0;
   background: #fff;
@@ -106,5 +107,10 @@ h2 {
   font-size: 3.5rem;
   text-transform: uppercase;
   display: flex;
-  align-items: center;
+  justify-content: center;
+}
+
+.liner {
+  display: flex;
+  justify-content: space-around;
 }

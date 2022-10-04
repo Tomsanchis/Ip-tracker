@@ -10,6 +10,7 @@ document.querySelector("form").addEventListener("submit", (event) => {
         container.innerHTML = `<h3>${data.reason}</h3>`;
       } else {
         container.innerHTML = `
+      <div class="liner">
       <div class="wrapper">
       <h2>ip adress</h2>
       <span>${data.ip}</span>
@@ -29,6 +30,29 @@ document.querySelector("form").addEventListener("submit", (event) => {
       <div class="wrapper">
       <h2>postal</h2>
       <span>${data.postal}</span>
+      </div>
+      </div>
+      <div class="liner">
+      <div class="wrapper">
+      <h2>Latitude</h2>
+      <span>${data.latitude}</span>
+      </div>
+      <div class="wrapper">
+      <h2>Longitude</h2>
+      <span>${data.longitude}</span>
+      </div>
+      <div class="wrapper">
+      <h2>Currency</h2>
+      <span>${data.currency_name}</span>
+      </div>
+      <div class="wrapper">
+      <h2>Version</h2>
+      <span>${data.version}</span>
+      </div>
+      <div class="wrapper">
+      <h2>Languages</h2>
+      <span>${data.languages}</span>
+      </div>
       </div>`;
       }
     });
